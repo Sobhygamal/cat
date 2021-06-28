@@ -1,0 +1,258 @@
+/* Start uper Bar*/
+@media (max-width: 767px) {
+  .uperBar {
+    height: 80px;
+  }
+  .uperBar span {
+    display: inline-block;
+  }
+  .contact-us .container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .contact-us a {
+    margin-right: 0%;
+  }
+}
+/* End uper Bar*/
+@media (max-width: 992px) {
+  .sticky {
+    position: relative;
+    background-color: var(--three-color);
+    border-bottom: 0.5px solid #c1c1c1;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 60px;
+  }
+  .navbar .link {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    overflow: hidden;
+  }
+  .navbar .link ul {
+    background-color: #fff;
+    width: 250px;
+    padding-left: 20px;
+    position: relative;
+    right: -100%;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+  }
+  .navbar .link ul.hide {
+    right: 0;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+  }
+  .navbar .link li:hover {
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+  }
+  .navbar .link a {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .navbar .testi {
+    display: none;
+  }
+  .overview {
+    margin-top: 120px;
+  }
+  .featuredWork ul {
+    width: 700px;
+    margin: auto;
+    padding-top: 30px;
+  }
+  .featuredWork ul li {
+    padding: 5px 20px;
+  }
+  .latest-posts .card {
+    margin: 10px auto;
+  }
+  .price-table .row {
+    margin: 10px 0px;
+  }
+  .choose-us p {
+    color: white;
+  }
+  .Contant-us a {
+    margin-right: 0px;
+    margin-top: 0;
+    margin-left: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .overview {
+    margin-top: 250px;
+  }
+  .overview h2 {
+    padding-top: 25px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .overview p {
+    width: 500px;
+    margin: auto;
+    color: #756868;
+  }
+  .featuredWork p {
+    width: 95%;
+    margin: auto;
+    color: #756868;
+  }
+  .featuredWork ul {
+    width: 500px;
+    margin: auto;
+    padding-top: 30px;
+  }
+  .featuredWork ul li {
+    width: 150px;
+    border: 3px solid #756868;
+  }
+
+  .featuredWork .shuffle .col-sm img {
+    width: 100%;
+    height: 100%;
+  }
+  .price-table {
+    height: 100%;
+  }
+  .price-table .row {
+    margin: 10px 100px;
+  }
+  .choose-us p {
+    color: white;
+    margin: 0;
+  }
+  .Statistics p {
+    width: 100%;
+    color: red;
+  }
+  .Contant-us .row {
+    text-align: center;
+  }
+  .Contant-us p {
+    margin-top: 20px;
+    color: white;
+  }
+  .Contant-us a {
+    margin: 50px auto;
+  }
+  .Copyright {
+    text-align: center;
+  }
+  .Copyright ol {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+  }
+}
+@media (max-width: 567px) {
+  .slider h1 {
+    font-size: 25px;
+  }
+  .features {
+    height: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .features .marg {
+    padding-bottom: 0;
+  }
+  .overview {
+    margin-top: 0;
+  }
+  .overview p {
+    width: 95%;
+    margin: auto;
+    color: #756868;
+  }
+  .featuredWork .hidd {
+    display: none;
+  }
+  .featuredWork .shuffle {
+    display: none;
+  }
+  .latest-posts .card {
+    margin: 8px auto;
+  }
+  .testimonial {
+    display: none;
+  }
+  .price-table {
+    height: 100%;
+  }
+  .price-table .card-2 p {
+    background-color: #ddd;
+    width: 100%;
+    margin-top: 25px;
+    height: 50px;
+    line-height: 1.6;
+    font-size: 28px;
+    color: #08526d;
+    font-weight: bold;
+  }
+  .price-table .card a {
+    background-color: red;
+    line-height: 6;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+  }
+  .price-table .row {
+    margin: 10px 10%;
+  }
+  .choose-us p {
+    color: white;
+  }
+  .Statistics .row {
+    padding: 0;
+  }
+  .Statistics p {
+    width: 100%;
+    color: red;
+  }
+  .Contant-us .row {
+    text-align: center;
+  }
+  .Contant-us p {
+    margin-top: 20px;
+    color: white;
+  }
+  .Contant-us a {
+    margin: 50px auto;
+  }
+  .Footer p {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .Copyright {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .sticky button {
+    display: none;
+  }
+}
